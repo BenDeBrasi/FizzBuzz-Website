@@ -1,0 +1,33 @@
+.transparent-circle {
+    background-color: rgba(204, 0, 102, 0);
+    border: 3px solid #000;
+    height:150px;
+    width:150px;
+    text-align: center;
+	line-height: 75px;
+	-webkit-border-radius:75px;
+    -moz-border-radius:75px;
+}
+
+
+
+.arrow {
+    width:120px;
+}
+
+.line {
+    margin-top:14px;
+    width:90px;
+    background:black;
+    height:10px;
+    float:left;
+}
+
+.point {    
+    width: 0;
+    height: 0; 
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 30px solid black;
+    float:right;
+}
