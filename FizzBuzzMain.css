@@ -1,0 +1,233 @@
+body {
+     background-color: #C0C0C0; 
+}
+
+code {
+  background: #A9A9A9;
+  border-radius: 6px;
+  color: #fff;
+  display: block;
+  font: 14px/24px "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
+  padding: 24px 15px;
+  text-align: center;
+}
+header,
+section,
+aside,
+footer {
+  margin: 0 1.5% 24px 1.5%;
+}
+section {
+  display: inline-block;
+  width: 30%;
+}
+  
+}
+footer {
+  margin-bottom: 0;
+}
+
+li {
+ 
+  padding-left: .25cm; 
+  padding-right: .35cm; 
+  float: center; 
+  width: 12em;
+  height: 4em;
+  text-align: center;
+  line-height: 2em;
+  border-radius: 1em;
+  background: #333333;
+  margin: 0 1em;
+  display: inline-block;
+  color: white;
+  position: relative;
+  font-family: "Times New Roman", Times, serif;
+}
+
+li::before{
+  content: '';
+  position: absolute;
+  top: .9em;
+  left: -4em;
+  width: 4em;
+  height: .2em;
+  background: #333333;
+  z-index: -1;
+  font-family: "Times New Roman", Times, serif;
+}
+
+
+li:first-child::before {
+  display: none;
+}
+
+.active {
+  background: #333333;
+}
+
+sectionTwo {
+  float: right;
+  width: 63%;
+  padding-right:20px; 
+}
+asideTwo {
+  float: left;
+  width: 30%;
+  padding-left:20px; 
+}
+
+footer {
+  clear: both;
+  margin-bottom: 0;
+  padding-top: 25px; 
+}
+
+#circle {
+    position: relative;
+  
+    padding-right:20px; 
+    padding-left:20px; 
+    padding-top:20px; 
+    padding-bottom:20px; 
+ 
+  
+    width: 250px;
+    height: 250px;
+    background: #333333;
+    -moz-border-radius: 400px;
+    -webkit-border-radius: 400px;
+    border-radius: 400px;
+}
+
+#rectangle {
+  position: relative;
+  
+  border-radius: 25px; 
+	width: 470px;
+	height: 202px;
+	background: #333333;
+}
+
+.button5 {
+    position: relative;
+    
+    border-radius: 25px;
+	  width: 245px;
+	  height: 204px;
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+    font-size: 40px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+footer {
+  clear: both;
+  margin-bottom: 0;
+}
+
+/* Our Modified social footer */
+
+@import url('https://fonts.googleapis.com/css?family=Lato:300');
+@import url('http://weloveiconfonts.com/api/?family=entypo');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background: #ddd;
+}
+
+.content {
+  padding: 30px;
+  font: 300 40px Lato, sans-serif;
+  text-align: center;
+  color: #999;
+  background: #eee;
+}
+
+.footer {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.social {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  margin: 0 10px;
+  line-height: 70px;
+  font-family: Entypo;
+  font-size: 35px;
+  text-align: center;
+  color: #bbb;
+  border-radius: 50%;
+  background: #eee;
+  overflow: hidden;
+  transition: color .3s;
+}
+
+.social:hover {
+  color: #59d;
+  cursor: pointer;
+}
+
+.social {
+  box-shadow: rgb(210, 210, 210) 1px 1px,
+    rgb(210, 210, 210) 2px 2px,
+    rgb(211, 211, 211) 3px 3px,
+    rgb(211, 211, 211) 4px 4px,
+    rgb(211, 211, 211) 5px 5px,
+    rgb(212, 212, 212) 6px 6px,
+    rgb(212, 212, 212) 7px 7px,
+    rgb(212, 212, 212) 8px 8px,
+    rgb(213, 213, 213) 9px 9px,
+    rgb(213, 213, 213) 10px 10px,
+    rgb(214, 214, 214) 11px 11px,
+    rgb(214, 214, 214) 12px 12px,
+    rgb(214, 214, 214) 13px 13px,
+    rgb(215, 215, 215) 14px 14px,
+    rgb(215, 215, 215) 15px 15px,
+    rgb(215, 215, 215) 16px 16px,
+    rgb(216, 216, 216) 17px 17px,
+    rgb(216, 216, 216) 18px 18px,
+    rgb(216, 216, 216) 19px 19px,
+    rgb(217, 217, 217) 20px 20px,
+    rgb(217, 217, 217) 21px 21px,
+    rgb(218, 218, 218) 22px 22px,
+    rgb(218, 218, 218) 23px 23px,
+    rgb(218, 218, 218) 24px 24px,
+    rgb(219, 219, 219) 25px 25px,
+    rgb(219, 219, 219) 26px 26px,
+    rgb(219, 219, 219) 27px 27px,
+    rgb(220, 220, 220) 28px 28px,
+    rgb(220, 220, 220) 29px 29px,
+    rgb(221, 221, 221) 30px 30px;
+   text-shadow: rgb(226, 226, 226) 1px 1px,
+    rgb(227, 227, 227) 2px 2px,
+    rgb(227, 227, 227) 3px 3px,
+    rgb(228, 228, 228) 4px 4px,
+    rgb(229, 229, 229) 5px 5px,
+    rgb(229, 229, 229) 6px 6px,
+    rgb(230, 230, 230) 7px 7px,
+    rgb(230, 230, 230) 8px 8px,
+    rgb(231, 231, 231) 9px 9px,
+    rgb(232, 232, 232) 10px 10px,
+    rgb(232, 232, 232) 11px 11px,
+    rgb(233, 233, 233) 12px 12px,
+    rgb(233, 233, 233) 13px 13px,
+    rgb(234, 234, 234) 14px 14px,
+    rgb(235, 235, 235) 15px 15px,
+    rgb(235, 235, 235) 16px 16px,
+    rgb(236, 236, 236) 17px 17px,
+    rgb(236, 236, 236) 18px 18px,
+    rgb(237, 237, 237) 19px 19px,
+    rgb(238, 238, 238) 20px 20px;
+}
