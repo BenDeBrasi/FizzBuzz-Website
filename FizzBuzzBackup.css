@@ -1,0 +1,28 @@
+body {
+     background-color: #C0C0C0; 
+  
+}
+
+h1 {
+    position: relative;
+    top: 80px;
+    color: #333333;
+}
+
+.numberCircle {
+    font: 32px Arial, sans-serif;
+    margin-top: 150px;
+    margin-bottom: 30px; 
+
+    width: 3em;
+    height: 3em;
+    box-sizing: initial;
+
+    background: #C0C0C0;
+    border: 0.1em solid #333333;
+    color: #333333;
+    text-align: center;
+    border-radius: 50%;    
+    line-height: 3em;
+    box-sizing: content-box;   
+}
